@@ -14,7 +14,8 @@
         android:backgroundTint="@android:color/holo_green_light"
         android:backgroundTintMode="multiply"
         android:text="@string/iniciar_sesi_n"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        />
 
     <Button
         android:id="@+id/button7"
@@ -25,5 +26,7 @@
         android:backgroundTint="@android:color/holo_green_light"
         android:backgroundTintMode="multiply"
         android:text="@string/registrarse"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+
+        />
 </FrameLayout>
