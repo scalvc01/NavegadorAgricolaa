@@ -3,21 +3,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment01">
+    tools:context=".Fragment03">
 
-    <Button
-        android:id="@+id/prueeeba"
+    <CheckedTextView
+        android:id="@+id/checkedTextView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:accessibilityLiveRegion="assertive"
-        android:autoLink="map"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/izquierda"
+        android:textSize="24sp" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/derecha"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/colorAccent"
         android:clickable="true"
-        android:focusable="true"
-        android:text="@string/prueeeba" />
+        android:focusable="true" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="127dp"
         android:layout_height="wrap_content"
-        android:text="@string/textview" />
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="150dp"
+        android:addStatesFromChildren="false"
+        android:alwaysDrawnWithCache="false"
+        android:animateLayoutChanges="false"
+        android:backgroundTint="@color/colorAccent" />
 </RelativeLayout>

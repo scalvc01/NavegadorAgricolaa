@@ -3,17 +3,76 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment01">
+    tools:context=".Fragment04">
 
-    <EditText
-        android:id="@+id/editText"
+    <CheckedTextView
+        android:id="@+id/checkedTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/nombre_de_la_finca"
+        android:textSize="18sp"
+        tools:text="Nombre de la finca" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/superficie"
+        android:textSize="18sp" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="115dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/trabajo_a_realizar"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
         android:ems="10"
         android:inputType="textPersonName"
-        android:lineSpacingExtra="30sp"
-        android:text="Cuaderno de campo"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="36sp"
-        android:textStyle="bold" />
+        android:labelFor="@id/editText4"
+        android:text="@string/introducir_nombre"
+        android:textSize="14sp"
+        tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="65dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@id/editText5"
+        android:text="@string/introducir_ha"
+        android:textSize="14sp"
+        tools:targetApi="o" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="110dp"
+        android:contentDescription="@string/tarea_a_realizar"
+        android:dropDownWidth="match_parent"
+        android:spinnerMode="dialog" />
+
 </FrameLayout>

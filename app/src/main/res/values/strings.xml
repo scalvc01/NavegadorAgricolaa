@@ -31,5 +31,25 @@
     <string name="prueba" />
     <string name="prueeeba">prueba</string>
     <string name="button10">Button</string>
+    <string name="navegator_browser">Navegator Browser</string>
+    <string name="scalvc01_estudiantes_unileon_es">scalvc01@estudiantes.unileon.es</string>
+    <string name="contrase_a">contraseña</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="name_registro">Name</string>
+    <string name="nombre_registro">Nombre</string>
+    <string name="izq_metros">Name</string>
+    <string name="checkedtextview">CheckedTextView</string>
+    <string name="multiautocompletetextview">MultiAutoCompleteTextView</string>
+    <string name="NombreFinca">CheckedTextView</string>
+    <string name="superficie">Superficie</string>
+    <string name="nombre_de_la_finca">Nombre de la Finca</string>
+    <string name="trabajo_a_realizar">Trabajo a realizar</string>
+    <string name="name">Name</string>
+    <string name="Nombre_Finca">Name</string>
+    <string name="introducir_ha">Introducir ha</string>
+    <string name="introducir_nombre">Introducir nombre</string>
+    <string name="izquierda">Izquierda</string>
+    <string name="derecha">Derecha</string>
+    <string name="tarea_a_realizar">tarea a realizar</string>
 
 </resources>
